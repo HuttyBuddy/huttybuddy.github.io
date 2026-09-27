@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — ProspectLens</title>
+<meta name="description" content="Support, FAQ, and contact for ProspectLens - B2B Prospecting Copilot.">
+<style>
+  :root { --navy:#102a4c; --accent:#2f7cf6; --ink:#1c2330; --muted:#5b6572; --bg:#f6f8fb; --card:#ffffff; --line:#e3e8ef; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:var(--bg); line-height:1.65; }
+  header { background:var(--navy); color:#fff; padding:48px 20px 40px; }
+  header .wrap, main .wrap, footer .wrap { max-width:820px; margin:0 auto; }
+  header h1 { margin:0 0 8px; font-size:2rem; letter-spacing:-.02em; }
+  header p { margin:0; color:#c7d3e4; max-width:600px; }
+  main { padding:36px 20px 60px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:28px 30px; margin-bottom:22px; box-shadow:0 1px 3px rgba(16,42,76,.06); }
+  h2 { color:var(--navy); font-size:1.25rem; margin:0 0 14px; letter-spacing:-.01em; }
+  .contact { display:flex; gap:16px; align-items:center; flex-wrap:wrap; }
+  .btn { display:inline-block; background:var(--accent); color:#fff !important; text-decoration:none; font-weight:600; padding:12px 22px; border-radius:8px; }
+  .btn:hover { background:#2568d8; }
+  .btn.ghost { background:#fff; color:var(--navy) !important; border:1px solid var(--line); }
+  .btn.ghost:hover { background:#f0f4fa; }
+  details { border:1px solid var(--line); border-radius:10px; margin-bottom:10px; background:#fff; }
+  details summary { cursor:pointer; padding:14px 18px; font-weight:600; color:var(--navy); list-style:none; }
+  details summary::-webkit-details-marker { display:none; }
+  details summary::before { content:"+"; display:inline-block; width:22px; color:var(--accent); font-weight:700; }
+  details[open] summary::before { content:"–"; }
+  details .a { padding:0 18px 16px 40px; color:var(--ink); }
+  details .a p { margin:8px 0; }
+  ul.tight li { margin-bottom:6px; }
+  code { background:#eef1f6; padding:2px 6px; border-radius:5px; font-size:.9em; }
+  footer { border-top:1px solid var(--line); padding:24px 20px 40px; font-size:.9rem; color:var(--muted); background:#fff; }
+  footer a { color:var(--accent); text-decoration:none; }
+  footer a:hover { text-decoration:underline; }
+  @media (max-width:640px){ .card{ padding:20px; } header h1{ font-size:1.5rem; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>ProspectLens Support</h1>
+    <p>Help, FAQs, and contact for <strong>ProspectLens — B2B Prospecting Copilot</strong>, the Chrome side-panel copilot for agencies, video creators, and B2B solopreneurs.</p>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+
+    <div class="card">
+      <h2>Contact us</h2>
+      <div class="contact">
+        <a class="btn" href="mailto:kevinhutty@gmail.com?subject=ProspectLens%20Support">Email support</a>
+        <a class="btn ghost" href="https://chromewebstore.google.com/detail/prospectlens-b2b-prospect/hlghbeannplgajgfcnmklfifcaiompgg">Chrome Web Store listing</a>
+        <a class="btn ghost" href="privacy.html">Privacy policy</a>
+      </div>
+      <p style="margin-top:14px;">Email: <a href="mailto:kevinhutty@gmail.com">kevinhutty@gmail.com</a> — we reply within one business day. Please include your Chrome version, extension version (from <code>chrome://extensions</code>), and a screenshot if something looks wrong.</p>
+    </div>
+
+    <div class="card">
+      <h2>Frequently asked questions</h2>
+
+      <details>
+        <summary>How do I open ProspectLens?</summary>
+        <div class="a"><p>Install the extension from the Chrome Web Store, then click the ProspectLens icon in your Chrome toolbar and choose <strong>Open side panel</strong>. Browse to any local business website and hit <strong>Scan</strong> to run the 4-pillar conversion audit.</p></div>
+      </details>
+
+      <details>
+        <summary>What does the Free plan include?</summary>
+        <div class="a"><p>5 website scans per month, the basic prospecting scorecard, and up to 3 lead exports. <strong>Pro Solopreneur ($49/mo)</strong> adds unlimited scans and pipeline leads, 1-click client PDF audits, full sequencer-ready CSV export, and the AI video ad prompt generator. <strong>Agency Scale ($119/mo)</strong> adds 1-click CRM webhook dispatch, white-label client PDF branding, and priority updates.</p></div>
+      </details>
+
+      <details>
+        <summary>How do the client PDF audits work?</summary>
+        <div class="a"><p>After a scan, click <strong>Generate PDF Audit</strong> to produce a vector-sharp A4 growth audit stamped with your agency name, logo, contact info, and calendar booking link. On the Agency Scale plan you can fully white-label the branding; lower tiers include a small "Powered by ProspectLens" footer.</p></div>
+      </details>
+
+      <details>
+        <summary>How do I connect my CRM or webhook?</summary>
+        <div class="a"><p>On the Agency Scale plan, open <strong>Settings → Integrations</strong>, paste your inbound webhook URL (Zapier, Make, GoHighLevel, HubSpot, or a custom endpoint), and use the <strong>Send to CRM</strong> button on any prospect to dispatch the audit scores, bottlenecks, and outreach scripts in one click.</p></div>
+      </details>
+
+      <details>
+        <summary>My CSV export looks garbled in Excel. What do I do?</summary>
+        <div class="a"><p>ProspectLens exports with UTF-8 BOM encoding so files open cleanly in Excel and Google Sheets. If characters still look wrong, use <strong>Data → From Text/CSV</strong> in Excel and choose UTF-8 encoding on import.</p></div>
+      </details>
+
+      <details>
+        <summary>Is my prospecting data private?</summary>
+        <div class="a"><p>Yes. Your saved leads and settings are stored <strong>locally in your browser</strong>. We never sell or broker your prospecting data. See the <a href="privacy.html">privacy policy</a> for full details.</p></div>
+      </details>
+
+      <details>
+        <summary>Does ProspectLens scrape law firms or real estate businesses?</summary>
+        <div class="a"><p>No. We enforce a strict non-scrape policy: ProspectLens will not scrape or prospect legal/law practices or real estate businesses.</p></div>
+      </details>
+
+      <details>
+        <summary>How do I cancel my subscription?</summary>
+        <div class="a"><p>Cancel anytime through the same checkout provider you used at purchase. You keep full access until the end of your current billing period, and your locally stored leads are never deleted by cancelling.</p></div>
+      </details>
+
+      <details>
+        <summary>The side panel is blank / the scan won't run. Help?</summary>
+        <div class="a">
+          <p>Try these in order:</p>
+          <ul class="tight">
+            <li>Reload the business website tab, then reopen the side panel.</li>
+            <li>Check <code>chrome://extensions</code> — make sure ProspectLens is enabled and has permission to read the current site.</li>
+            <li>Update Chrome to the latest version and restart the browser.</li>
+          </ul>
+          <p>If it still fails, email us with the site URL and a screenshot.</p>
+        </div>
+      </details>
+
+    </div>
+
+    <div class="card">
+      <h2>Feature requests &amp; feedback</h2>
+      <p>ProspectLens is actively developed. If there's an integration, audit pillar, or export format you need, email <a href="mailto:kevinhutty@gmail.com?subject=ProspectLens%20Feature%20Request">kevinhutty@gmail.com</a> with the subject "Feature Request" — agency workflows get priority.</p>
+    </div>
+
+  </div>
+</main>
+<footer>
+  <div class="wrap">
+    © 2026 HuttyBuddy · <a href="support.html">Support</a> · <a href="privacy.html">Privacy Policy</a> · <a href="https://chromewebstore.google.com/detail/prospectlens-b2b-prospect/hlghbeannplgajgfcnmklfifcaiompgg">Chrome Web Store</a>
+  </div>
+</footer>
+</body>
+</html>
